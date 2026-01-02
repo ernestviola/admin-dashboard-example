@@ -66,11 +66,20 @@ nav > ul {
   gap: 1.2em;
 }
 
+nav > ul img {
+  height: 30px;
+  width: 30px;
+  filter: brightness(0) invert(1);
+}
+
 nav > ul > li > a {
   text-decoration: none;
   color: white;
   font-size: 18px;
   font-weight: 600;
+  display: flex;
+  align-content: center;
+  gap: 4px;
 
 }
 
@@ -125,6 +134,13 @@ input[type="search"] {
   font-size: 24px;
   font-weight: 700;
   padding: 24px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.logo > img {
+  height: 50px;
+  width: 50px;
 }
 
 .header__nav {
@@ -191,4 +207,18 @@ input[type="search"] {
   flex-direction: column;
   gap: 16px;
   flex-basis: 300px;
+}
+
+.search {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.search > label > img {
+  filter: brightness(0);
+}
+
+.search > label > img:hover {
+  cursor: pointer;
 }
