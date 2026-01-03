@@ -32,14 +32,24 @@
         <label for='search' aria-label='search'><img src='images/search.svg' alt='Search'></label>
         <input type='search' id='search'>
       </form>
-      <button>Notifications</button>
-      <button>Profile <span>First Name</span></button>
+      <div class='header__nav__buttons'>
+        <button aria-label='Notifications' class='bell__button'><img src='images/bell.svg' alt='Bell'></button>
+        <button class='profile__button'><img src='images/profile-picture.jpg' alt='Profile Picture'> <span>First Name</span></button>
+      </div>
     </div>
     <div class='header__actions'>
-      <span>Greetings</span>
-      <button>New</button>
-      <button>Upload</button>
-      <button>Share</button>
+      <div class='header__actions__greeting'>
+        <img src='images/profile-picture.jpg' alt='Picture of the user'>
+        <div>
+          <span class='greeting'>Hi there,</span>
+          <p class='username'>First Name (@firstname)</p>
+        </div>
+      </div>
+      <div class='header__actions__buttons'>
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+      </div>
     </div>
 
   </header>
