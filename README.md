@@ -1,7 +1,7 @@
 # Admin Dashboard Example
 An admin dashboard created with the guidance from [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard).
 
-Here's the [preview]().
+Here's the [preview](https://ernestviola.github.io/admin-dashboard-example/).
 
 ## Lessons
 When working on a larger page definitely complete the html to the best of your
