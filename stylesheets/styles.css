@@ -75,12 +75,11 @@ nav > ul img {
 nav > ul > li > a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 1em;
   font-weight: 600;
   display: flex;
-  align-content: center;
-  gap: 4px;
-
+  align-items: center;
+  gap: 12px;
 }
 
 nav > ul > li > a:hover {
@@ -91,6 +90,7 @@ header {
   background-color: rgb(255	255	255	);
   grid-column: 2 / 3;
   padding: 20px;
+  box-shadow: 0px 1px 10px -5px  rgba(0,0,0,.5)
 }
 
 input[type="search"] {
@@ -101,14 +101,14 @@ input[type="search"] {
 
 .container {
   display: grid;
-  grid-template-columns: 300px 5fr;
+  grid-template-columns: 240px 5fr;
   grid-template-rows: auto 1fr;
 }
 
 .logo {
   color: white;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 1.2em;
   font-weight: 700;
   padding: 24px 8px;
   display: flex;
@@ -117,8 +117,8 @@ input[type="search"] {
 }
 
 .logo > img {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
 }
 
 .header__nav {
@@ -240,7 +240,7 @@ main h2 {
 .card__container {
   display: grid;
   gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   min-width: 200px;
 }
 
@@ -249,6 +249,7 @@ main h2 {
   background-color: rgb(255	255	255	);
   padding: 24px 16px;
   border-radius: 10px;
+  box-shadow: 0px 8px 6px -6px  rgba(0,0,0,.2)
 }
 
 .card__title {
@@ -290,7 +291,7 @@ main h2 {
 }
 
 .main__aside > section {
-  min-width: 400px;
+  min-width: 300px;
   
 }
 
@@ -298,6 +299,7 @@ main h2 {
   border-radius: 10px;
   padding: 4px 24px;
   background-color: rgb(255	255	255	);
+  box-shadow: 0px 8px 6px -6px  rgba(0,0,0,.2)
 }
 
 .announcement {
